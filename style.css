@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to right, #ffe6e6, #fff0f5);
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+  }
+  #message {
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 15px;
+    font-size: 1.4rem;
+    color: #d6336c;
+  }
+  .mom-img {
+    max-width: 250px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  
+  }
+  #changeCount {
+    background-color: #f54291; /* pink color */
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  #changeCount:hover {
+    background-color: #d42a74; /* darker pink on hover */
+  }

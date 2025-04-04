@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="لعبة تفاعلية لعيد الأم. أجيبي على الأسئلة لتفوزي بأجمل التهاني!">
+    <meta name="keywords" content="لعبة عيد الأم, لعبة تفاعلية, تهنئة عيد الأم, أمي, أسئلة عيد الأم">
+    <meta name="author" content="AL Moatasem Osama">
+    <meta property="og:title" content="لعبة عيد الأم">
+    <meta property="og:description" content="إجابة على الأسئلة لتفوزي بأجمل التهاني بمناسبة عيد الأم">
+    <meta property="og:image" content="../pictures/ogool.jpg">
+    <link rel="icon" href="../pictures/favicon.png" type="image/x-icon">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>لعبة عيد الأم 🎉 | إجابات وتحديات ممتعة</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../bootstrap.min.css">
+  <link rel="stylesheet" href="../animate.min.css">
+</head>
+<body class="overflow-x-hidden max-vh-100 py-5 d-flex align-items-center justify-content-center text-center animate__animated animate__backInDown">
+
+  <div class="container">
+    <h1 class="display-5 text-danger mb-4 animate__swing animate__animated animate__infinite">لعبة عيد الأم 🎉</h1>
+
+    <p class="fs-3">أجيبي على الأسئلة لتفوزي يا أمي</p>
+
+    <div id="question-container">
+      <p id="question" class="fw-bold fs-1">سؤال سيظهر هنا</p>
+      <button class="px-4 py-2 btn btn-primary" onclick="checkAnswer('A')">إجابة أ</button>
+      <button class="px-4 py-2 btn btn-success m-3" onclick="checkAnswer('B')">إجابة ب</button>
+      <button class="px-4 py-2 btn btn-danger" onclick="checkAnswer('C')">إجابة ج</button>
+    </div>
+
+    <p id="result" class=" bg-body"></p>
+  
+</div>
+<script src="script.js"></script>
+</body>
+</html> 
