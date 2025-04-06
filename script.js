@@ -18,14 +18,6 @@ let asomy = document.getElementById("asomy");
 changeCount.addEventListener("click", () => {
   index = (index + 1) % messages.length;
   messageElement.textContent = messages[index];
-  messageElement.classList.add('animate__animated', 'animate__fadeInRight');
-  asomy.classList.add('animate__lightSpeedInLeft' , 'animate__animated');
 
-  messageElement.addEventListener('animationend', () => {
-    messageElement.classList.remove('animate__fadeInRight');
-  });
-  asomy.addEventListener('animationend', () => {
-    asomy.classList.remove('animate__lightSpeedInLeft');
-  });
 
 });
